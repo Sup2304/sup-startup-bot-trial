@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Send Sup a Startup Idea</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main style="max-width:700px;margin:40px auto;font-family:system-ui,Segoe UI,Roboto,Arial">
+    <h1>Send Sup a Startup Idea 🚀</h1>
+    <p>Tell me a problem and I’ll give you a wild startup idea in 2 seconds.</p>
+
+    <label>What problem do you face?</label><br>
+    <textarea id="problem" rows="3" style="width:100%"></textarea>
+
+    <label style="margin-top:8px;display:block">Pick a vibe</label>
+    <select id="vibe">
+      <option value="funny">Funny</option>
+      <option value="practical">Practical</option>
+      <option value="viral">Viral</option>
+      <option value="tech">Tech</option>
+    </select>
+
+    <button id="go" style="display:block;margin-top:12px;padding:10px 16px">Get my idea</button>
+
+    <section id="output" style="margin-top:20px;min-height:60px"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
